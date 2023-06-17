@@ -15,7 +15,12 @@
   --neutral-gray-blue: hsl(224, 30%, 27%);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-family: "Hanken Grotesk", sans-serif;
   font-weight: 500;
 }
