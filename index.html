@@ -14,7 +14,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution {margin-top:50px; font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -35,10 +35,10 @@
      
      <div class="summary">
        <h2 class="summary__title">Summary</h2>
-       <ul>
-         <li class="summary__report">
+       <ul class="reports">
+         <li class="report red">
            <div class="report__description">
-             <img src="" alt="report icon" />
+             <img src="./assets/images/icon-reaction.svg" alt="report icon" />
              <span>Reaction</span>
            </div>
            
@@ -48,9 +48,9 @@
            </div>
          </li>
          
-         <li class="summary__report">
+         <li class="report yellow">
            <div class="report__description">
-             <img src="" alt="report icon" />
+             <img src="./assets/images/icon-memory.svg" alt="report icon" />
              <span>Memory</span>
            </div>
            
@@ -60,9 +60,9 @@
            </div>
          </li>
          
-         <li class="summary__report">
+         <li class="report green">
            <div class="report__description">
-             <img src="" alt="report icon" />
+             <img src="./assets/images/icon-verbal.svg" alt="report icon" />
              <span>Verbal</span>
            </div>
            
@@ -72,9 +72,9 @@
            </div>
          </li>
          
-         <li class="summary__report">
+         <li class="report blue">
            <div class="report__description">
-             <img src="" alt="report icon" />
+             <img src="./assets/images/icon-visual.svg" alt="report icon" />
              <span>Visual</span>
            </div>
            
@@ -84,14 +84,16 @@
            </div>
          </li>
        </ul>
-       <button class="report__btn">Continue</button>
+       <button class="report__btn"><span>Continue</span></button>
      </div>
    </div>
- </main>
-
-  <div class="attribution">
+   
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+ </main>
+
+ 
 </body>
 </html>
